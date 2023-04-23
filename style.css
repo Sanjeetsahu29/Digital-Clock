@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    /* background-image: url(./bg\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    overflow: hidden;
+}
+h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /*It's seem that our h2 is already in center but during
+    the resizing our h2 text will be on the left side of the webpages
+    So, that's why it's become important for us to set text alignment to center*/
+    text-align: center;
+
+}
+.clock{
+    display: flex;
+    gap: 1.2rem;
+
+}
+
+.clock div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+
+
+.clock span{
+    color: white;
+    opacity: 0.8;
+    width: 100px;
+    height: 80px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.042);
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    background-color:gray;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#ampm{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(4, 4, 4);
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    
+}
