@@ -1,2 +1,2 @@
 # Digital-Clock
-Made a digital clock using the HTML, CSS and JavaScript to display the Indian current time in 12 hours format. 
+Made a simple single page website showing digital clock to display real-time Indian current time in 12 hours format. 
